@@ -1,0 +1,43 @@
+/* digital clock css */
+@font-face {
+    font-family: 'digital-7-mono';
+    src: url(font/digital-7-mono.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#clock {
+    background: #999;
+    box-shadow: 
+     4px 4px 6px rgba(0, 0, 0, 0.5), /* right bottom blur blurcolor */
+     0 0 8px rgba(0, 0, 0, 0.7) inset;
+    /* width: 400px; */
+    height: 140px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #000;
+    border-radius: 15px;
+    font-size: 80px;
+    font-family: 'digital-7-mono', monospace;
+}
+
+#clock .container {
+    display: flex;
+}
+
+.ampm {
+    font-size: 40px;
+}

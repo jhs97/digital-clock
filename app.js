@@ -17,9 +17,7 @@ $(function(){
         if(h>=12) {
             amPm = 'PM';
         };
-        // else {
-        //     amPm = 'PM';
-        // }
+        
 
         // 0 ~ 9까지는 앞에 0을 표시
         if(s<10) {
